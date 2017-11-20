@@ -5,22 +5,19 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 // const OptimizeJsPlugin = require('optimize-js-plugin')
 
 const env = process.env.NODE_ENV || 'undefined';
-const nmdir = path.resolve(__dirname, 'node_modules');
+const nodems = path.resolve(__dirname, 'node_modules');
 
 module.exports = {
-  // resolve: {
-  //   extensions: ['.js', '.jsx']
-  // },
-  // entry: (env !== 'production' ? [
-  //   'react-hot-loader/patch',
-  //   'webpack-dev-server/client?http://localhost:8080',
-  //   'webpack/hot/only-dev-server'
-  // ] : []).concat(['./client/index.js']),
-  // devtool: 'eval-source-map',
-
-  entry: {
-    app: './client/index.js'
+  resolve: {
+    extensions: ['.webpack.js', '.web.js', '.js', '.jsx', '.json']
   },
+  entry: (env !== 'production' ? [
+    'react-hot-loader/patch',
+    'webpack-dev-server/client?http://localhost:8080',
+    'webpack/hot/only-dev-server'
+  ] : []).concat(['./client/index.jsx']),
+
+  // entry: path.resolve(__dirname, 'client', 'index.jsx'),
 
   output: {
     filename: './bundle.js',
@@ -32,12 +29,12 @@ module.exports = {
       {
         enforce: 'pre',
         test: /\.jsx?$/,
-        exclude: nmdir,
+        exclude: nodems,
         loader: 'eslint-loader'
       },
       {
         test: /\.jsx?$/,
-        exclude: nmdir,
+        exclude: nodems,
         loader: 'babel-loader',
         options: {
           presets: ['env', 'react', 'stage-0']
@@ -45,7 +42,7 @@ module.exports = {
       },
       {
         test: /\.jsx?$/,
-        exclude: nmdir,
+        exclude: nodems,
         loaders: [
           'react-hot-loader/webpack'
         ]
