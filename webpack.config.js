@@ -5,19 +5,17 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 // const OptimizeJsPlugin = require('optimize-js-plugin')
 
 const env = process.env.NODE_ENV || 'undefined';
-const nodems = path.resolve(__dirname, 'node_modules');
+const nodeModulesDir = path.resolve(__dirname, 'node_modules');
 
 module.exports = {
   resolve: {
-    extensions: ['.webpack.js', '.web.js', '.js', '.jsx', '.json']
+    extensions: ['.webpack.js', '.web.js', '.js', '.jsx', '.json', '.html']
   },
+
   entry: (env !== 'production' ? [
     'react-hot-loader/patch',
-    'webpack-dev-server/client?http://localhost:8080',
-    'webpack/hot/only-dev-server'
+    // 'webpack-dev-server/client?http://localhost:8080',
   ] : []).concat(['./client/index.jsx']),
-
-  // entry: path.resolve(__dirname, 'client', 'index.jsx'),
 
   output: {
     filename: './bundle.js',
@@ -29,12 +27,12 @@ module.exports = {
       {
         enforce: 'pre',
         test: /\.jsx?$/,
-        exclude: nodems,
+        exclude: nodeModulesDir,
         loader: 'eslint-loader'
       },
       {
         test: /\.jsx?$/,
-        exclude: nodems,
+        exclude: nodeModulesDir,
         loader: 'babel-loader',
         options: {
           presets: ['env', 'react', 'stage-0']
@@ -42,7 +40,7 @@ module.exports = {
       },
       {
         test: /\.jsx?$/,
-        exclude: nodems,
+        exclude: nodeModulesDir,
         loaders: [
           'react-hot-loader/webpack'
         ]
@@ -72,12 +70,14 @@ module.exports = {
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin()
   ],
+
   node: {
     fs: 'empty'
   },
 
   devServer: {
     contentBase: './public',
+    publicPath: './server',
     hot: true
   }
 };

@@ -19,5 +19,5 @@ if (module.hot) {
   console.log('hot-reloading');
   module.hot.accept('./containers/App', () => render(App));
 } else {
-  console.log('not hot-reloading');
+  console.log('cold-reloading');
 }

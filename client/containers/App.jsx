@@ -4,9 +4,9 @@ import io from 'socket.io-client';
 import styles from '../style/App.css';
 
 import UsersList from '../components/UsersList';
-import UserForm from '../components/UserForm';
 import MessageList from '../components/MessageList';
-import MessageForm from '../components/MessageForm';
+import UserForm from './UserForm';
+import MessageForm from './MessageForm';
 
 
 const socket = io('/');
@@ -15,10 +15,38 @@ export default class App extends Component {
   state = {
     users: [],
     messages: [],
-    text: '',
+    // text: '',
     name: ''
   }
 
+  componentDidMount = () => {
+    socket.on('message', message => this.messageReceive(message));
+    socket.on('update', ({ users }) => this.chatUpdate(users));
+  }
+
+
+  messageReceive = (message) => {
+    // 1
+    const messages = [message, ...this.state.messages];
+    this.setState({ messages });
+    // 2
+    // this.setState(prevState => ({ messages: [message, ...prevState.messages] }));
+  }
+
+  chatUpdate = users => this.setState({ users })
+
+  // handlers
+  handleMessageSubmit = (message) => {
+    this.messageReceive(message);
+    socket.emit('message', message);
+  }
+
+  handleUserSubmit = (name) => {
+    this.setState({ name });
+    socket.emit('join', name);
+  }
+
+  // renderers
   renderUserForm = () => (
     <UserForm
       onUserSubmit={name => this.handleUserSubmit(name)}
