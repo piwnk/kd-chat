@@ -16,8 +16,8 @@ const render = (Component) => {
 render(App);
 
 if (module.hot) {
-  console.log('hot-reloading');
+  console.log('hot-reloading enabled');
   module.hot.accept('./containers/App', () => render(App));
 } else {
-  console.log('cold-reloading');
+  console.log('hot-reloading disabled');
 }

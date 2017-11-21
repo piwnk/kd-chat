@@ -6,7 +6,7 @@ import styles from '../style/MessageForm.css';
 export default class MessageForm extends Component {
   static propTypes = {
     name: PropTypes.string.isRequired,
-    text: PropTypes.string.isRequired,
+    // text: PropTypes.string.isRequired,
     onMessageSubmit: PropTypes.func.isRequired
   }
 
@@ -19,7 +19,7 @@ export default class MessageForm extends Component {
 
     const message = {
       from: this.props.name,
-      text: this.props.text
+      text: this.state.text
     };
     console.log(message);
     this.props.onMessageSubmit(message);
