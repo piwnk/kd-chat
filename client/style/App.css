@@ -3,13 +3,13 @@ body {
 }
 
 .App {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     flex: 1;
-    height: 100vh; */
-    display: grid;
+    height: 100vh;
+    /* display: grid;
     grid-template-areas: ".AppTitle .AppRoom"
-                          ".AppBody .AppBody"
+                          ".AppBody .AppBody" */
 }
 
 .AppHeader {

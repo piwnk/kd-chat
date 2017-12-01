@@ -6,6 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const env = process.env.NODE_ENV || 'undefined';
 const nodeModulesDir = path.resolve(__dirname, 'node_modules');
+console.log(env);
 
 module.exports = {
   resolve: {
@@ -14,7 +15,8 @@ module.exports = {
 
   entry: (env !== 'production' ? [
     'react-hot-loader/patch',
-    // 'webpack-dev-server/client?http://localhost:8080',
+    'webpack-dev-server/client?http://localhost:8080',
+    'webpack/hot/only-dev-server',
   ] : []).concat(['./client/index.jsx']),
 
   output: {
@@ -75,11 +77,11 @@ module.exports = {
     fs: 'empty'
   },
 
-  devServer: {
-    contentBase: './public',
-    publicPath: './server',
-    hot: true
-  }
+  // devServer: {
+  //   contentBase: './public',
+  //   // publicPath: './server',
+  //   hot: true
+  // }
 };
 
 // if (env === 'production') {

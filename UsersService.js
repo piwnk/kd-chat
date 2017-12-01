@@ -3,15 +3,19 @@ class UsersService {
     this.users = [];
   }
 
-  getAllUsers = () => this.users;
+  getAllUsers() {
+    return this.users;
+  }
 
-  getUserById = userId => this.users.find(user => user.id === userId);
+  getUserById(userId) {
+    return this.users.find(user => user.id === userId);
+  }
 
-  addUser = (user) => {
+  addUser(user) {
     this.users = [user, ...this.users];
   }
 
-  removeUser = (userId) => {
+  removeUser(userId) {
     this.users = this.users.filter(user => user.id !== userId);
   }
 }

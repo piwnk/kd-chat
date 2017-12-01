@@ -10,8 +10,8 @@ const io = socketIo(server);
 
 const usersService = new UsersService();
 
-// app.use(express.static(__dirname + '/public'));
 app.use(express.static(`${__dirname}/public`));
+app.use('/style', express.static(`${__dirname}/client/style`));
 
 app.get('/', (req, res) => {
   // res.sendFile(__dirname + '/index.html');

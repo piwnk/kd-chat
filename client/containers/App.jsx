@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import io from 'socket.io-client';
 
 import styles from '../style/App.css';
+import '../style/reset.css';
 
 import UsersList from '../components/UsersList';
 import MessageList from '../components/MessageList';
