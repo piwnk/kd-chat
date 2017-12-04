@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "1e33d2690b9e8580a37f"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "029b3bcbc4499e6dc224"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -803,7 +803,7 @@ exports.default = MessageList;
     if (typeof __REACT_HOT_LOADER__ === 'undefined') {
       return;
     } /* eslint-disable camelcase, no-undef */var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : module.exports; /* eslint-enable camelcase, no-undef */if (typeof webpackExports === 'function') {
-      __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', 'C:\\Users\\piotr\\Documents\\dev\\campus\\kodilla\\kd-chat\\client\\components\\MessageList.jsx');return;
+      __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', 'C:\\Users\\piwaniuk\\Documents\\EPL\\Szkolenia\\kodilla\\kd-chat\\client\\components\\MessageList.jsx');return;
     } /* eslint-disable no-restricted-syntax */for (var key in webpackExports) {
       /* eslint-enable no-restricted-syntax */if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) {
         continue;
@@ -811,7 +811,7 @@ exports.default = MessageList;
         namedExport = webpackExports[key];
       } catch (err) {
         continue;
-      }__REACT_HOT_LOADER__.register(namedExport, key, 'C:\\Users\\piotr\\Documents\\dev\\campus\\kodilla\\kd-chat\\client\\components\\MessageList.jsx');
+      }__REACT_HOT_LOADER__.register(namedExport, key, 'C:\\Users\\piwaniuk\\Documents\\EPL\\Szkolenia\\kodilla\\kd-chat\\client\\components\\MessageList.jsx');
     }
   }
 })();
@@ -882,7 +882,7 @@ exports.default = UsersList;
     if (typeof __REACT_HOT_LOADER__ === 'undefined') {
       return;
     } /* eslint-disable camelcase, no-undef */var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : module.exports; /* eslint-enable camelcase, no-undef */if (typeof webpackExports === 'function') {
-      __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', 'C:\\Users\\piotr\\Documents\\dev\\campus\\kodilla\\kd-chat\\client\\components\\UsersList.jsx');return;
+      __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', 'C:\\Users\\piwaniuk\\Documents\\EPL\\Szkolenia\\kodilla\\kd-chat\\client\\components\\UsersList.jsx');return;
     } /* eslint-disable no-restricted-syntax */for (var key in webpackExports) {
       /* eslint-enable no-restricted-syntax */if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) {
         continue;
@@ -890,7 +890,7 @@ exports.default = UsersList;
         namedExport = webpackExports[key];
       } catch (err) {
         continue;
-      }__REACT_HOT_LOADER__.register(namedExport, key, 'C:\\Users\\piotr\\Documents\\dev\\campus\\kodilla\\kd-chat\\client\\components\\UsersList.jsx');
+      }__REACT_HOT_LOADER__.register(namedExport, key, 'C:\\Users\\piwaniuk\\Documents\\EPL\\Szkolenia\\kodilla\\kd-chat\\client\\components\\UsersList.jsx');
     }
   }
 })();
@@ -1065,7 +1065,7 @@ exports.default = App;
     if (typeof __REACT_HOT_LOADER__ === 'undefined') {
       return;
     } /* eslint-disable camelcase, no-undef */var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : module.exports; /* eslint-enable camelcase, no-undef */if (typeof webpackExports === 'function') {
-      __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', 'C:\\Users\\piotr\\Documents\\dev\\campus\\kodilla\\kd-chat\\client\\containers\\App.jsx');return;
+      __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', 'C:\\Users\\piwaniuk\\Documents\\EPL\\Szkolenia\\kodilla\\kd-chat\\client\\containers\\App.jsx');return;
     } /* eslint-disable no-restricted-syntax */for (var key in webpackExports) {
       /* eslint-enable no-restricted-syntax */if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) {
         continue;
@@ -1073,7 +1073,7 @@ exports.default = App;
         namedExport = webpackExports[key];
       } catch (err) {
         continue;
-      }__REACT_HOT_LOADER__.register(namedExport, key, 'C:\\Users\\piotr\\Documents\\dev\\campus\\kodilla\\kd-chat\\client\\containers\\App.jsx');
+      }__REACT_HOT_LOADER__.register(namedExport, key, 'C:\\Users\\piwaniuk\\Documents\\EPL\\Szkolenia\\kodilla\\kd-chat\\client\\containers\\App.jsx');
     }
   }
 })();
@@ -1189,7 +1189,7 @@ exports.default = MessageForm;
     if (typeof __REACT_HOT_LOADER__ === 'undefined') {
       return;
     } /* eslint-disable camelcase, no-undef */var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : module.exports; /* eslint-enable camelcase, no-undef */if (typeof webpackExports === 'function') {
-      __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', 'C:\\Users\\piotr\\Documents\\dev\\campus\\kodilla\\kd-chat\\client\\containers\\MessageForm.jsx');return;
+      __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', 'C:\\Users\\piwaniuk\\Documents\\EPL\\Szkolenia\\kodilla\\kd-chat\\client\\containers\\MessageForm.jsx');return;
     } /* eslint-disable no-restricted-syntax */for (var key in webpackExports) {
       /* eslint-enable no-restricted-syntax */if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) {
         continue;
@@ -1197,7 +1197,7 @@ exports.default = MessageForm;
         namedExport = webpackExports[key];
       } catch (err) {
         continue;
-      }__REACT_HOT_LOADER__.register(namedExport, key, 'C:\\Users\\piotr\\Documents\\dev\\campus\\kodilla\\kd-chat\\client\\containers\\MessageForm.jsx');
+      }__REACT_HOT_LOADER__.register(namedExport, key, 'C:\\Users\\piwaniuk\\Documents\\EPL\\Szkolenia\\kodilla\\kd-chat\\client\\containers\\MessageForm.jsx');
     }
   }
 })();
@@ -1305,7 +1305,7 @@ exports.default = UserForm;
     if (typeof __REACT_HOT_LOADER__ === 'undefined') {
       return;
     } /* eslint-disable camelcase, no-undef */var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : module.exports; /* eslint-enable camelcase, no-undef */if (typeof webpackExports === 'function') {
-      __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', 'C:\\Users\\piotr\\Documents\\dev\\campus\\kodilla\\kd-chat\\client\\containers\\UserForm.jsx');return;
+      __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', 'C:\\Users\\piwaniuk\\Documents\\EPL\\Szkolenia\\kodilla\\kd-chat\\client\\containers\\UserForm.jsx');return;
     } /* eslint-disable no-restricted-syntax */for (var key in webpackExports) {
       /* eslint-enable no-restricted-syntax */if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) {
         continue;
@@ -1313,7 +1313,7 @@ exports.default = UserForm;
         namedExport = webpackExports[key];
       } catch (err) {
         continue;
-      }__REACT_HOT_LOADER__.register(namedExport, key, 'C:\\Users\\piotr\\Documents\\dev\\campus\\kodilla\\kd-chat\\client\\containers\\UserForm.jsx');
+      }__REACT_HOT_LOADER__.register(namedExport, key, 'C:\\Users\\piwaniuk\\Documents\\EPL\\Szkolenia\\kodilla\\kd-chat\\client\\containers\\UserForm.jsx');
     }
   }
 })();
@@ -1367,7 +1367,7 @@ if (true) {
     if (typeof __REACT_HOT_LOADER__ === 'undefined') {
       return;
     } /* eslint-disable camelcase, no-undef */var webpackExports = typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__ : module.exports; /* eslint-enable camelcase, no-undef */if (typeof webpackExports === 'function') {
-      __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', 'C:\\Users\\piotr\\Documents\\dev\\campus\\kodilla\\kd-chat\\client\\index.jsx');return;
+      __REACT_HOT_LOADER__.register(webpackExports, 'module.exports', 'C:\\Users\\piwaniuk\\Documents\\EPL\\Szkolenia\\kodilla\\kd-chat\\client\\index.jsx');return;
     } /* eslint-disable no-restricted-syntax */for (var key in webpackExports) {
       /* eslint-enable no-restricted-syntax */if (!Object.prototype.hasOwnProperty.call(webpackExports, key)) {
         continue;
@@ -1375,7 +1375,7 @@ if (true) {
         namedExport = webpackExports[key];
       } catch (err) {
         continue;
-      }__REACT_HOT_LOADER__.register(namedExport, key, 'C:\\Users\\piotr\\Documents\\dev\\campus\\kodilla\\kd-chat\\client\\index.jsx');
+      }__REACT_HOT_LOADER__.register(namedExport, key, 'C:\\Users\\piwaniuk\\Documents\\EPL\\Szkolenia\\kodilla\\kd-chat\\client\\index.jsx');
     }
   }
 })();
@@ -2333,7 +2333,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "body {\n    margin: 0;\n}\n\n.Dh0CXaws5-VKF4Hdwgw8J {\n    display: flex;\n    flex-direction: column;\n    flex: 1;\n    height: 100vh;\n    /* display: grid;\n    grid-template-areas: \".AppTitle .AppRoom\"\n                          \".AppBody .AppBody\" */\n}\n\n._3bOpv-gqxVL5NqyrKBeRbI {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    border-bottom: 1px solid #ccc;\n}\n\n._24cXugnYOAJH9W4zzBf14q {\n    display: flex;\n    width: 25vw;\n    border-right: 1px solid #ccc;\n    justify-content: center;\n    box-sizing: border-box;\n    padding: 20px;\n}\n\n._3fwCyyQObsMHcicFd8AUU2 {\n    display: flex;\n    width: 75vw;\n    justify-content: center;\n    box-sizing: border-box;\n    padding: 20px;\n}\n\n.iv8ijjg40HklHtaXGFdFp {\n    display: flex;\n    flex-direction: row;\n    flex: 1;\n}\n\n.UYic87jOpE3K1zxMpuZh3 {\n    display: flex;\n    flex-direction: column;\n    width: 75vw;\n    flex: 1;\n}", ""]);
+exports.push([module.i, "body {\r\n    margin: 0;\r\n}\r\n\r\n.Dh0CXaws5-VKF4Hdwgw8J {\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex: 1;\r\n    height: 100vh;\r\n    /* display: grid;\r\n    grid-template-areas: \".AppTitle .AppRoom\"\r\n                          \".AppBody .AppBody\" */\r\n}\r\n\r\n._3bOpv-gqxVL5NqyrKBeRbI {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    border-bottom: 1px solid #ccc;\r\n}\r\n\r\n._24cXugnYOAJH9W4zzBf14q {\r\n    display: flex;\r\n    width: 25vw;\r\n    border-right: 1px solid #ccc;\r\n    justify-content: center;\r\n    box-sizing: border-box;\r\n    padding: 20px;\r\n}\r\n\r\n._3fwCyyQObsMHcicFd8AUU2 {\r\n    display: flex;\r\n    width: 75vw;\r\n    justify-content: center;\r\n    box-sizing: border-box;\r\n    padding: 20px;\r\n}\r\n\r\n.iv8ijjg40HklHtaXGFdFp {\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex: 1;\r\n}\r\n\r\n.UYic87jOpE3K1zxMpuZh3 {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 75vw;\r\n    flex: 1;\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -2355,7 +2355,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "._337Bn-d2iXqFf0c4eF1SjR {\n    display: flex;\n    flex-direction: row;\n}\n\n._2xiDa6WkexuqzQwtlnFxqs {\n    flex: 1;\n    padding: 20px;\n    border: 0;\n    border-top: 1px solid #ccc;\n}", ""]);
+exports.push([module.i, "._337Bn-d2iXqFf0c4eF1SjR {\r\n    display: flex;\r\n    flex-direction: row;\r\n}\r\n\r\n._2xiDa6WkexuqzQwtlnFxqs {\r\n    flex: 1;\r\n    padding: 20px;\r\n    border: 0;\r\n    border-top: 1px solid #ccc;\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -2373,7 +2373,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "._315GMMPfuXWniuoRC42_LE {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-start;\n    width: 75vw;\n    padding: 20px;\n}", ""]);
+exports.push([module.i, "._315GMMPfuXWniuoRC42_LE {\r\n    flex: 1;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: flex-start;\r\n    width: 75vw;\r\n    padding: 20px;\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -2390,7 +2390,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, ".f4kU1qpJiVmDUWG0In9DP {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    width: 100vw;\n    height: 100vh;\n}\n\n._2e_UFF5QsQGxjGRrccpFLO {\n    padding: 20px;\n    font-size: 1.7em;\n    border: 0;\n    border-bottom: 1px solid #ccc;\n    width: 510px;\n}", ""]);
+exports.push([module.i, ".f4kU1qpJiVmDUWG0In9DP {\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: 100vw;\r\n    height: 100vh;\r\n}\r\n\r\n._2e_UFF5QsQGxjGRrccpFLO {\r\n    padding: 20px;\r\n    font-size: 1.7em;\r\n    border: 0;\r\n    border-bottom: 1px solid #ccc;\r\n    width: 510px;\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -2408,7 +2408,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, ".wg72LSbd6vtzU-u8W6pBo {\n    display: flex;\n    flex: 1;\n    width: 25vw;\n    justify-content: flex-start;\n    flex-direction: column;\n    border-right: 1px solid #ccc;\n}\n\n._2uftEQgSklJkgY9ECVPwL {\n    padding: 20px;\n    text-align: center;\n    background: #ccc;\n}\n\n.HIvEIk3o2C2EBZgL9e57O {\n    margin: 0;\n    padding: 0;\n}\n\n.AjHaxxHuQgrm9eQclil4f {\n    list-style: none;\n    border-bottom: 1px solid #ccc;\n    padding: 20px;\n    margin: 0 0 0 20px;\n}", ""]);
+exports.push([module.i, ".wg72LSbd6vtzU-u8W6pBo {\r\n    display: flex;\r\n    flex: 1;\r\n    width: 25vw;\r\n    justify-content: flex-start;\r\n    flex-direction: column;\r\n    border-right: 1px solid #ccc;\r\n}\r\n\r\n._2uftEQgSklJkgY9ECVPwL {\r\n    padding: 20px;\r\n    text-align: center;\r\n    background: #ccc;\r\n}\r\n\r\n.HIvEIk3o2C2EBZgL9e57O {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n.AjHaxxHuQgrm9eQclil4f {\r\n    list-style: none;\r\n    border-bottom: 1px solid #ccc;\r\n    padding: 20px;\r\n    margin: 0 0 0 20px;\r\n}", ""]);
 
 // exports
 exports.locals = {
@@ -2428,7 +2428,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "* {\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n}\n\n#_18hkIOTw3N28UJlqoK0Jzj {\n  width: 100vw;\n  height: 100vh;\n}", ""]);
+exports.push([module.i, "* {\r\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n}\r\n\r\n#_18hkIOTw3N28UJlqoK0Jzj {\r\n  width: 100vw;\r\n  height: 100vh;\r\n}", ""]);
 
 // exports
 exports.locals = {
